@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.header h1 {
+  margin: 20px 5px;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  background-color: #f88379;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+
+.header ul li {
+  margin-right: 30px;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.footer {
+  margin-top: auto;
+  height: 200px;
+  background-color: #4169e1;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  flex-grow: 1;
+  background-color: azure;
+}
+
+.content {
+  flex-grow: 3;
+}
+.nav ul {
+  list-style: none;
+  padding: 5px;
+}
+
+.nav li {
+  margin-bottom: 10px;
+}
+
+.active {
+  color: black !important;
+  font-weight: bold;
+}
+
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+}
